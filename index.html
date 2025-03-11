@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara MakeUp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Sara MakeUp - Maquiadora Profissional</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#pacotes">Pacotes</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Prazer, meu nome é Sara Leandro de jesus tenho 28 anos e sou maquiadora desde 2017.
+                Fiz alguns cursos presenciais e online mas no ano passado alcançei uma das minhas metas que foi aprender
+                e conhecer um pouco mais de perto o trabalho da @prilessamakeup.
+                Sigo em aprendizagem cada dia me especializando para atender e corresponder melhor todas que sentarem na
+                minha cadeira.</p>
+        </div>
+    </section>
+
+    <section id="pacotes" class="section">
+        <div class="container">
+            <h2>Pacotes de Maquiagem</h2>
+            <div class="pacote">
+                <img src="pacote1.jpg" alt="Pacote 1">
+                <h3>Maquiagem para Noivas</h3>
+                <p>Especial para o grande dia, com todos os cuidados e atenção para um look impecável.</p>
+                <button class="detalhes" onclick="mostrarDetalhes('detalhes1')">Ver detalhes</button>
+                <p id="detalhes1" class="detalhes-texto">Inclui teste de maquiagem, maquiagem para a cerimônia e
+                    acompanhamento durante o evento.</p>
+            </div>
+            <div class="pacote">
+                <img src="pacote2.jpg" alt="Pacote 2">
+                <h3>Maquiagem para Festas</h3>
+                <p>Para eventos especiais, destacando a sua beleza e estilo único.</p>
+                <button class="detalhes" onclick="mostrarDetalhes('detalhes2')">Ver detalhes</button>
+                <p id="detalhes2" class="detalhes-texto">Inclui maquiagem personalizada para o evento e retoques durante
+                    a festa.</p>
+            </div>
+            <div class="pacote">
+                <img src="pacote3.jpg" alt="Pacote 3">
+                <h3>Maquiagem Casual</h3>
+                <p>Perfeita para um look dia a dia ou eventos menores.</p>
+                <button class="detalhes" onclick="mostrarDetalhes('detalhes3')">Ver detalhes</button>
+                <p id="detalhes3" class="detalhes-texto">Inclui maquiagem leve e natural, com aplicação de produtos de
+                    alta qualidade.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Agende seu atendimento com a Sara e realce sua beleza.</p>
+            <form action="#" method="post">
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu email" required>
+                <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sara Maquiadora. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
