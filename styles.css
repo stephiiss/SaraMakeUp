@@ -1,0 +1,128 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}     
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5; /* Alterei para um tom mais suave */
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #d4a5a5; /* Cor mais suave e agradável */
+    padding: 1rem 0;
+}
+
+header h1 {
+    color: #5d3e3e; /* Cor mais escura para contraste e leitura */
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #5d3e3e; /* Cor ajustada para mais harmonia */
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #5d3e3e; /* Mesma cor para manter o esquema visual coeso */
+    margin-bottom: 1rem;
+}
+
+.pacote {
+    text-align: center;
+    background-color: #e0c5d6; /* Cor mais suave, complementar à cor principal */
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pacote img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.pacote h3 {
+    color: #5d3e3e; /* Cor ajustada para harmonia com o restante do layout */
+    margin-bottom: 0.5rem;
+}
+
+.pacote p {
+    font-size: 1rem;
+    color: #6b4f4f; /* Cor mais suave e clara para contraste */
+}
+
+.detalhes-texto {
+    display: none;
+    font-size: 0.9rem;
+    color: #6b4f4f;
+}
+
+footer {
+    background-color: #5d3e3e; /* Cor mais escura para o rodapé */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #f7c6d2; /* Cor suave e delicada para o botão */
+    color: #5d3e3e; /* Cor contrastante para o texto */
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e2a0b3; /* Cor de hover ajustada para uma transição suave */
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .pacote {
+        margin: 1rem 0;
+    }
+}
